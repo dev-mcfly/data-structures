@@ -11,3 +11,4 @@ Linear Data Structures:
 - 2D_ARRAYS.md
 - MATRIX.md
 - LINKEDLIST.md
+- STACK.md

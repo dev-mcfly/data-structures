@@ -1,10 +1,10 @@
 
-
 class Node(object):
 
     def __init__(self, val=None):
         self.val = val
         self.next = None
+
 
 class SinglyLinkedList(object):
 
@@ -13,7 +13,7 @@ class SinglyLinkedList(object):
 
 
     def traverse_list(self):
-        ''''''
+        """."""
         root = self.head
         while root is not None:
             print(root.val)
@@ -21,7 +21,7 @@ class SinglyLinkedList(object):
 
 
     def insert(self, new_data):
-        ''''''
+        """."""
         new_node = Node(new_data)
 
         # Update the new nodes next pointer to existing head
@@ -30,7 +30,7 @@ class SinglyLinkedList(object):
 
 
     def insert_at_end(self, new_data):
-        ''''''
+        """."""
         new_node = Node(new_data)
 
         # Check if there ll is empty
@@ -48,7 +48,7 @@ class SinglyLinkedList(object):
 
 
     def insert_in_between(self, middle_node, new_data):
-        ''''''
+        """."""
         # Raise exception if the middle node is not None
         if middle_node is None:
             raise Exception('Given node can not be None.')
@@ -59,7 +59,7 @@ class SinglyLinkedList(object):
 
 
     def remove(self, remove_val):
-        ''''''
+        """."""
         cur = self.head
 
         # Check if the value we are removing is the head
