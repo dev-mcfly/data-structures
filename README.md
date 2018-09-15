@@ -12,3 +12,4 @@ Linear Data Structures:
 - MATRIX.md
 - LINKEDLIST.md
 - STACK.md
+- QUEUE.md
