@@ -13,3 +13,4 @@ Linear Data Structures:
 - LINKEDLIST.md
 - STACK.md
 - QUEUE.md
+- DEQUEUE.md
